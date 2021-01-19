@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/AlexisAndreu/gestion_ferme/blob/master'
+ git 'https://github.com/AlexisAndreu/gestion_ferme'
 }
 
 stage('Compile'){
